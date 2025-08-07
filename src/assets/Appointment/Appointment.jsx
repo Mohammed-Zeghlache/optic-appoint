@@ -56,7 +56,7 @@ const Appointment = () => {
 
 
 const API_URL = import.meta.env.DEV
-  ? 'http://localhost:5001'
+  ? 'http://localhost:5001/malade'
   : 'https://optician-backend.onrender.com/api/malade';
 
 const response = await fetch(API_URL, {
